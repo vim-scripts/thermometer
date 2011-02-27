@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3472
+
+Thermometer is a vim plugin for mercurial users. Right now is in alpha state. Available commands are:
+
+- Hgst to open a quickfix window with changes to the repository
+- Hgdiff to diff the current buffer with its last version on the repository
+- g:HgStatusForFile() to be used in status lines to get the status of the buffer
+- Hgstreload to reset status data used in g:HgStatusForFile()
+
+Follow it's development in https://github.com/dgsuarez/thermometer
